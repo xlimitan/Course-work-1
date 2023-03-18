@@ -11,11 +11,17 @@ public class Main {
         employeeBook.updateDepartment("vano vanov Vanovich", 3);
         System.out.println();
         employeeBook.printAll();
+        System.out.println();
         System.out.println("Общие затраты на запралаты в месяц " +  employeeBook.totalSalary() + " рублей");
+        System.out.println();
         System.out.println(employeeBook.minSalary());
+        System.out.println();
         System.out.println(employeeBook.maxSalary());
+        System.out.println();
         System.out.println(employeeBook.averageSalary());
+        System.out.println();
         employeeBook.printAllNames();
+        System.out.println();
         employeeBook.increaseByAmount(0.1);
         employeeBook.printAll();
         System.out.println();
